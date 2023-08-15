@@ -64,7 +64,7 @@ const buildGuiToolCmd = (service, dbtool, override_local_docker_ip) => {
 }
 
 module.exports = lando => ({
-  command: 'db-gui',
+  command: 'dbgui',
   describe: 'Connects to the database using a GUI tool of your choice',
   level: 'app',
   options: {
