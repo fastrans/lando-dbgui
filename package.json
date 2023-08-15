@@ -1,0 +1,15 @@
+{
+  "name": "lando-dbgui",
+  "version": "0.0.4",
+  "description": "Lando plugin to launch your preferred database management GUI tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Lester <mlester@fastrans.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.5"
+  }
+}
